@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-"""Randomly decline a meeting with 4+ attendees on a week starting from tomorrow.
+"""Randomly decline a meeting with 5+ attendees on a week starting from tomorrow.
 """
 
 
@@ -18,7 +18,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
 ### User preferences ###
-MIN_ATTENDEES = 4
+MIN_ATTENDEES = 5
 MUST_ATTEND = ["Debrief"]
 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
